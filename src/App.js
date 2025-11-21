@@ -138,14 +138,14 @@ function App() {
             <School className="w-16 h-16 text-indigo-600" />
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-            Sistema de Registro de Instituciones Educativas UGEL 06
+            Sistema de Registro de Instituciones Educativas Publicas UGEL 06
           </h1>
           <p className="text-gray-600">Gestione la información de las instituciones educativas</p>
         </div>
 
         {mensaje.texto && (
           <div className={`mb-6 p-4 rounded-lg shadow-md ${mensaje.tipo === 'success' ? 'bg-green-100 border-l-4 border-green-500 text-green-700' :
-              'bg-red-100 border-l-4 border-red-500 text-red-700'
+            'bg-red-100 border-l-4 border-red-500 text-red-700'
             }`}>
             {mensaje.texto}
           </div>
@@ -155,8 +155,8 @@ function App() {
           <button
             onClick={() => setVistaActual('formulario')}
             className={`flex-1 py-3 px-4 rounded-lg font-medium transition-all ${vistaActual === 'formulario'
-                ? 'bg-indigo-600 text-white shadow-lg'
-                : 'bg-white text-gray-700 hover:bg-gray-50'
+              ? 'bg-indigo-600 text-white shadow-lg'
+              : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
           >
             <Save className="inline-block w-5 h-5 mr-2" />
@@ -166,8 +166,8 @@ function App() {
           <button
             onClick={() => setVistaActual('lista')}
             className={`flex-1 py-3 px-4 rounded-lg font-medium transition-all ${vistaActual === 'lista'
-                ? 'bg-indigo-600 text-white shadow-lg'
-                : 'bg-white text-gray-700 hover:bg-gray-50'
+              ? 'bg-indigo-600 text-white shadow-lg'
+              : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
           >
             <List className="inline-block w-5 h-5 mr-2" />
