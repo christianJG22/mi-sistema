@@ -138,7 +138,7 @@ function App() {
             <School className="w-16 h-16 text-indigo-600" />
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-            Sistema de Registro de Instituciones Educativas Publicas UGEL 06
+            Sistema de Registro de Instituciones Educativas Públicas UGEL 06
           </h1>
           <p className="text-gray-600">Gestione la información de las instituciones educativas</p>
         </div>
@@ -404,7 +404,7 @@ function App() {
         )}
 
         <div className="mt-8 text-center text-sm text-gray-600">
-          <p>Los datos se guardan localmente en tu navegador</p>
+          <p>Programador Christian J.</p>
         </div>
 
       </div>
